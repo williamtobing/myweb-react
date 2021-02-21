@@ -1,7 +1,19 @@
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
+import "./style/main.scss";
+
 function App() {
   return (
     <>
-      <h1>William S L Tech</h1>
+      <Hero />
+      <About />
+      <Portfolio />
+      <Contact />
+      <Footer />
     </>
   );
 }
